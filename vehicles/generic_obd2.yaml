@@ -1,0 +1,4 @@
+# Generic profile: discover supported PIDs via 0x00/0x20/0x40... and show what the car answers.
+id: generic_obd2
+description: Any OBD-II compliant vehicle
+standard_pids: discover

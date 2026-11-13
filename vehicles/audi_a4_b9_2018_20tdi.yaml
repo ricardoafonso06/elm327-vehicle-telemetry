@@ -1,0 +1,16 @@
+id: audi_a4_b9_2018_20tdi
+make: Audi
+model: A4 Avant (B9)
+year: 2018
+engine: 2.0 TDI 150 hp
+gearbox: S tronic (7-speed dual clutch, exact unit to be confirmed)
+bus: CAN 11-bit / 500 kbit/s   # to be confirmed on the vehicle
+standard_pids: discover
+status: untested
+uds:
+  # Research phase: DIDs/addresses must be validated against real captures
+  # and public documentation before being listed here. Do NOT guess values.
+  modules: []
+notes:
+  - Read-only by design.
+  - Gateway/security access restrictions may limit access to some modules.
